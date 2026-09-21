@@ -1,4 +1,5 @@
 # 1 (Write a program to find the largest of three numbers)
+
 a = int(input("Enter 1 Number: "))
 b = int(input("Enter 2 Number: "))
 c = int(input("Enter 3 Number: "))
@@ -35,6 +36,7 @@ else:
 
 
 # 2 (Write a program to check whether a given year is a leap year)
+
 year = int(input("Enter year : "))
 if (year %100 ==0 ):
     if(year %400== 0):
@@ -48,6 +50,7 @@ else:
         print(year,"is not not leap year")
 
 # 3 (Write a program to check if a character is a vowel or consonant)
+
 word=input("enter a letter :")
 word.lower()
 if word[0] in "a e i o u":
@@ -68,3 +71,11 @@ else:
     print("try another number")
 
 # 5 (Write a program to calculate the sum of first N natural numbers using a while loop)
+
+multiplication=int(input("enter number :"))
+i=1     
+while i <=10:
+     print(i,"×",multiplication,"=",multiplication*i)
+     i=i+1
+
+#6 (Print a pyramid pattern)
