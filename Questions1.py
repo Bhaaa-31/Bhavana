@@ -79,3 +79,12 @@ while i <=10:
      i=i+1
 
 #6 (Print a pyramid pattern)
+rows = 4
+for i in range(1, rows + 1):
+    print(" " * (rows - i) + "*" * (2 * i - 1))
+
+#7 
+for a in range(0,6):
+    for b in range(1, a + 1):
+        print(b, end="")
+    print()
