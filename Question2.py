@@ -39,4 +39,27 @@ def prime(number):
         return("prime number")
             
 number= int(input("Enter number :"))     
-print(prime(number))       
+print(prime(number))    
+
+# 5(Write a recursive function to find the nth Fibonacci number)
+
+def fibonacci(n):
+    if n==0:
+        return 0
+    if n==1:
+        return 1
+    return fibonacci(n-1)+fibonacci(n-2)
+n = int(input("Enter number: "))
+print("the fibonacci is",fibonacci(n))
+
+# 6(Write a recursive function to reverse a string)
+
+def reverse(string):
+    if string == "":
+        return string
+    return reverse(string[1:]) + string[0]
+string=input("enter something :")    
+print(reverse(string))
+
+# 7(Write a program to find the sum of all numbers from 1 to n using a for loop)
+
