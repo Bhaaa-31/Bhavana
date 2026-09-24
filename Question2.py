@@ -63,3 +63,8 @@ print(reverse(string))
 
 # 7(Write a program to find the sum of all numbers from 1 to n using a for loop)
 
+n = int(input("Enter number: "))
+total =0
+for i in range(1,n+1):
+    total=total+i
+print("Sum :",total) 
